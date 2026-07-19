@@ -149,9 +149,6 @@ footer a{
     color:#ffff99;
     text-decoration:none;
 }
-/* ===========================
-   Responsive Media Queries
-=========================== */
 
 /* Tablet */
 @media screen and (max-width: 768px) {
@@ -203,7 +200,6 @@ footer a{
         position: relative;
     }
 
-    /* hide menu by default */
     nav table {
         display: none;
         width: 100%;
@@ -228,7 +224,6 @@ footer a{
         text-decoration: none;
     }
 
-    /* show menu when hovering */
     nav:hover table {
         display: block;
     }
